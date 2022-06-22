@@ -1,0 +1,50 @@
+<style>
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+/* Add a gray background color and some padding to the footer */
+footer {
+  background-color:yellow;
+  padding: 30px;
+  position:relative;
+
+}
+.carroselh3{
+    margin-bottom: 120px;
+
+}
+.carousel-inner img {
+  width: 200px; /* Set width to 100% */
+  height: 750px;
+  margin: auto;
+  min-height:270px;
+}
+
+.carousel-caption {
+font-weight: 700;
+}
+
+.Logo{
+    width: 200px; /* Set width to 100% */
+    height: 70px;
+    margin-left: 20em;
+    font-family: Ethnocentric, sans-serif;
+    text-align: center;
+    color:antiquewhite;
+}
+
+.descriçao{
+    color: red;
+}
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+
+@media (max-width: 600px) {
+.carousel-caption {
+  display: none;
+}
+}
+
+</style>
